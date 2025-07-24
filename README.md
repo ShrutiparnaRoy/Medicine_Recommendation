@@ -37,3 +37,9 @@ Data : 	CSV datasets (symptoms, medications, workouts)
 ML Model	 : SVM (svc.pkl) trained on symptom-disease mappings
 
 Version Control : 	GitHub
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
