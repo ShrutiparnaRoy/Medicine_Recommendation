@@ -1,39 +1,107 @@
-**MediGuide: Your Personalized Medical Recommendation System**
+<img width="1312" height="342" alt="image" src="https://github.com/user-attachments/assets/fb2a4853-795f-4be9-a6e4-060ae1dd1405" />
 
-Welcome to MediGuide, an innovative project that harnesses the power of machine learning to transform how you understand and manage your health. Our goal is to provide proactive, personalized insights directly to you, helping you navigate your health journey with greater confidence.
+---
 
-**What MediGuide Does**
+# 🩺 MediGuide: Your Personalized Medical Recommendation System
 
-At its core, MediGuide empowers you to:
+Welcome to **MediGuide**, an innovative platform that leverages machine learning to transform how individuals understand and manage their health. By providing proactive, personalized medical insights, MediGuide empowers users to make informed decisions and take control of their well-being.
 
-Predict Diseases from Symptoms: Simply input your symptoms into our user-friendly interface, and our machine learning models will analyze them to predict potential diseases with a high degree of accuracy.
+---
 
-Receive Tailored Recommendations: We go beyond just diagnosis. For each predicted condition, MediGuide provides personalized recommendations, including:
+## 🚀 Features
 
-The top 5 relevant medicines
+✅ **Disease Prediction from Symptoms**  
+Enter your symptoms through a simple, user-friendly interface. Our trained machine learning model will analyze the inputs and predict potential diseases with high accuracy.
 
-Corresponding prescriptions
+✅ **Personalized Recommendations**  
+For every condition predicted, MediGuide provides tailored support including:
+- 🧪 Top 5 recommended medicines  
+- 📄 Relevant prescriptions  
+- 🧘‍♂️ Custom workout routines to aid recovery and boost overall health  
 
-Customized workout routines designed to support your recovery and overall well-being.
+✅ **Seamless Experience**  
+MediGuide is built with a clean and responsive Flask-based web interface that ensures smooth navigation and real-time feedback.
 
-Enjoy a Seamless User Experience: MediGuide is built with a sleek and intuitive Flask web application, ensuring that accessing your health insights is straightforward and hassle-free.
+---
 
-**Our Core Principles**
+## 🔒 Core Principles
 
-Privacy and Security First: We understand the sensitive nature of health data. Protecting your information is our top priority. We employ robust security measures to ensure your privacy is always maintained.
+- **🔐 Privacy & Security First**  
+  Health data is sensitive. We implement robust security practices to ensure your data remains safe and confidential.
 
-Continuous Improvement: The field of medicine is constantly evolving, and so is MediGuide. We've designed it to learn and improve over time, continually refining its recommendations based on new data and real-world feedback to provide increasingly accurate and effective guidance.
+- **🔁 Continuous Improvement**  
+  MediGuide is designed to learn and evolve. With regular updates and feedback loops, our system continuously improves accuracy and relevance.
 
-Empowering Your Health Journey: MediGuide isn't just a diagnostic tool; it's a partner in your health. By providing accessible, personalized information, we aim to empower you to make informed decisions about your well-being and take proactive steps towards a healthier life.
+- **🙌 Empowering Users**  
+  MediGuide aims to be your health companion—not just a tool. We provide accessible, actionable insights to help you make confident decisions about your health.
 
-**Technologies Used**
+---
 
-Backend	 : Python, Flask, Scikit-learn (SVC model)
+## 🛠️ Tech Stack
 
-Frontend	: HTML, CSS, JavaScript
+| Layer        | Technologies                        |
+|--------------|--------------------------------------|
+| **Backend**  | Python, Flask, Scikit-learn (SVC)    |
+| **Frontend** | HTML, CSS, JavaScript                |
+| **ML Model** | SVM (`svc.pkl`) trained on symptom-disease mappings |
+| **Data**     | CSV files (symptoms, medications, workouts) |
+| **Version Control** | Git & GitHub                  |
 
-Data : 	CSV datasets (symptoms, medications, workouts)
+---
 
-ML Model	 : SVM (svc.pkl) trained on symptom-disease mappings
+## 🧠 How It Works
 
-Version Control : 	GitHub
+1. 📝 **Input Symptoms** – User selects or types symptoms into the interface.
+2. 🔍 **ML Prediction** – The SVC model processes the symptoms and returns a likely disease.
+3. 💊 **Recommendation Engine** – Based on the prediction, MediGuide provides:
+   - Medicines & prescriptions
+   - Workout suggestions
+4. 📈 **User Insights** – Tailored insights to support your recovery and daily wellness.
+
+---
+
+## 💡 Getting Started
+
+1. **Clone the Repo**
+ ```
+   git clone https://github.com/your-username/MediGuide.git
+   cd MediGuide
+```
+   
+2. Set up a Virtual Environment
+```
+  python3 -m venv env
+  source env/bin/activate  # On Windows: env\Scripts\activate
+```
+
+3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+4. un the App
+```
+python app.py
+```
+
+5. Access Locally
+```
+Visit: http://localhost:5000
+```
+---
+### 🤝 Contributing
+- Contributions are welcome! Feel free to open issues or submit pull requests.
+```
+# Fork the repository
+# Create a new branch
+git checkout -b feature-branch
+# Make your changes and commit
+git commit -m "Added new feature"
+# Push and create a PR
+```
+
+---
+
+## 🙋‍♀️ Contact
+For queries or feedback, reach out to the project maintainer:
+https://github.com/ShrutiparnaRoy
